@@ -1,0 +1,75 @@
+# Bu .gitignore dosyası Unity projenizin ana dizininde bulunmalıdır.
+# Kaynak: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures aşırı büyük boyutlara ulaşabilir ve hassas veriler içerebilir.
+/[Mm]emoryCaptures/
+
+# Kayıt dosyaları aşırı büyük boyutlara ulaşabilir.
+/[Rr]ecordings/
+
+# Asset Store Tools eklentisini yoksaymak isterseniz aşağıdaki satırın başındaki '#' işaretini kaldırın.
+# /[Aa]ssets/AssetStoreTools*
+
+# Otomatik oluşturulan Jetbrains Rider eklentisi
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio önbellek dizini
+.vs/
+
+# Gradle önbellek dizini
+.gradle/
+
+# Otomatik oluşturulan Visual Studio / MonoDevelop / Consulo çözüm ve proje dosyaları
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D tarafından otomatik oluşturulan meta dosyaları (Sadece gereksiz olanlar)
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Çökme raporlarında Unity3D tarafından oluşturulan dosya
+sysinfo.txt
+
+# Çıktılar (Builds)
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics tarafından oluşturulan dosya
+crashlytics-build.properties
+
+# Paketlenmiş datatool dosyaları
+*.dat
+
+# İşletim sistemi tarafından oluşturulan gizli dosyalar
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
